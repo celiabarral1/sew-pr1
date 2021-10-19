@@ -1,0 +1,85 @@
+body {
+    font-family: Tahoma, sans-serif;
+    color: #000000;
+    background-color:#01986D; 
+	text-align:justify;
+	display:grid;
+	grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-gap: 2px;
+  align-items: center;
+  justify-items: strech;
+}
+
+h1 {
+    color: #fff;    
+    text-transform: uppercase;
+    text-align: center;  
+	font-size: 30px;	
+}
+
+
+h2{
+   text-transform: uppercase;
+   font-weight: lighter;
+   text-align: center; 
+}
+
+header > p {
+	font-style: italic;
+}
+
+aside > nav{
+	background-color: white;
+}
+
+
+ul {
+	
+    font-style: italic;
+    list-style-type: circle;
+    list-style-position: inside
+}
+
+
+header{
+	grid-area: head;
+	grid-column-start: 1; 
+  grid-column-end: 5; 
+  grid-row-start: 1; 
+  grid-row-end: 2;
+  border: 3px solid black;
+  padding:5px;
+}
+
+main{
+	grid-area: main;
+	grid-column-start: 1; 
+  grid-column-end: 4; 
+  grid-row-start: 2; 
+  grid-row-end: 4;
+  border: 3px solid black;
+  padding:5px;
+}
+
+aside{
+	grid-area: menu;
+	grid-column-start: 4; 
+  grid-column-end: 5; 
+  grid-row-start: 2; 
+  grid-row-end: 4;
+  justify-self:strech;
+}
+
+footer{
+	grid-area: pie;
+	grid-column-start: 1; 
+  grid-column-end: 5; 
+  grid-row-start: 4; 
+  grid-row-end: 5;
+  border: 3px solid black;
+  padding:5px;
+}
+
+
+
